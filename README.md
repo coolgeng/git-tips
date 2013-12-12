@@ -28,3 +28,12 @@ Example:
 * $ git config --global alias.st status		
 * $ git config --global alias.unstage 'reset HEAD --'
 * $ git config --global alias.last 'log -1 HEAD'
+
+3 gitk
+
+* Download the official git package for Mac from http://git-scm.com/download/mac
+* alias gitk='/usr/local/bin/gitk'
+
+You can put this line in the ~/.bash_profile
+
+* $ git config --global alias.visual "!gitk"
